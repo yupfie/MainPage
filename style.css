@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+#Top{
+position: absolute;
+border: none;
+width: 100%;
+height: 50px;
+background-color: #000000;
+color: #ffffff;
+font-size: 25px;
+font-family: Times New Roman;
+font-weight: 950;
+flex: 0;
+align-items: center;
+justify-content: center;
+}
