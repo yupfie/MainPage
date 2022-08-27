@@ -15,4 +15,5 @@ font-family: Times New Roman;
 font-weight: 950;
 text-align: center;
 overflow: hidden;
+float: top;
 }
