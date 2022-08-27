@@ -5,17 +5,20 @@ padding: 0;
 
 #Top{
 overflow: hidden;
-background-color: #f1f1f1;
+background-color: #000000;
+text-align: center; 
+height: 35px
 }
 
 #Top a {
-  color: black;
+  color: #ffffff;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  user-select: none;
 }
 
 #Top a.logo {
