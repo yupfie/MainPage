@@ -19,6 +19,7 @@ body{
   line-height: 27px;
   border-radius: 32px;
   user-select: none;
+  float: bottom;
 }
 
 #Top a.logo {
