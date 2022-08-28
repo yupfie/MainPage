@@ -15,9 +15,9 @@ font-size: 30px;
 font-family: Times New Roman;
 font-weight: 950;
 text-align: center; 
-right:0;
-left:0;
-bottom:0;
-top:0;
+margin-right: 50%;
+margin-left: 50%;
+margin-top: 50%;
+margin-bottom: 50%;
 position: absolute;
 }
