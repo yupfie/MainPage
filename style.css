@@ -15,7 +15,7 @@ body{
   align-items: center; 
   height: 65px;
   width: 100%;
-  display: inline;  
+  bottom: 0;
 }
 
 #Top a {
@@ -26,12 +26,12 @@ body{
   line-height: 27px;
   border-radius: 32px;
   user-select: none;
-  display: inline;  
+  bottom: 0;
 }
 
 #Top a.logo {
   margin-top: 10px;
   font-size: 25px;
   font-weight: 800
-  display: inline;  
+  bottom: 0;
 }
