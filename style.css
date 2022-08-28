@@ -6,7 +6,13 @@ body{
 #Top{
   overflow: hidden;
   background-color: #000000;
-  text-align: center; 
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 5px;  
+  height: 30px;  
+  display: flex;  
+  align-items: center; 
   height: 65px;
   width: 100%;
 }
