@@ -1,19 +1,19 @@
 body{
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
 #Top{
 overflow: hidden;
 background-color: #000000;
 text-align: center; 
-height: 45px
+height: 65px;
+width: 100%;
 }
 
 #Top a {
   color: #ffffff;
   text-align: center;
-  padding: 12px;
   text-decoration: none;
   font-size: 25px;
   line-height: 27px;
