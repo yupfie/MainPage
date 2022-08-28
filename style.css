@@ -3,35 +3,23 @@ body{
   padding: 0px;
 }
 
-#Top{
-  overflow: hidden;
-  background-color: #000000;
-  position: fixed;  
-  left: 0;  
-  right: 0;  
-  top: 5px;  
-  height: 30px;  
-  display: flex;  
-  align-items: center; 
-  height: 65px;
-  width: 100%;
-  bottom: 0;
+#header-image-menu{
+    top: 10px;
+    position: relative;
 }
-
-#Top a {
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
-  line-height: 27px;
-  border-radius: 32px;
-  user-select: none;
-  bottom: 0;
+ 
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
 }
-
-#Top a.logo {
-  margin-top: 10px;
-  font-size: 25px;
-  font-weight: 800;
-  bottom: 0;
+ 
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
 }
