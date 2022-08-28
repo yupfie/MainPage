@@ -1,25 +1,23 @@
 body{
-  margin: 0px;
-  padding: 0px;
+margin: 0px;
+padding: 0px;
 }
 
-#header-image-menu{
-    top: 10px;
-    position: relative;
+#top-header{
+width: 100%;
+height: 65px;
+background-color: #000000;
+border-radius: 0px 0px 32px 32px;
 }
  
-#header-image-menu img{
-    width: 100%;
-    margin: none;
-    padding: none;
-}
- 
-#image-text{
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    font-family: 'Roboto';
-    color: #000;
-    transform: translate(-30%, -30%);
-    text-align: center;
+#logo{
+color: #ffffff; 
+font-size: 30px;
+font-family: Times New Roman;
+font-weight: 950;
+text-align: center; 
+right:0;
+left:0;
+bottom:0;
+top:0;
 }
