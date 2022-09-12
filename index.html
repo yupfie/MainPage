@@ -1,48 +1,23 @@
-<!DOCTYPE html>
 <html>
-  <head>   
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>   
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-   <link rel="stylesheet" href="style.css" type="text/css"/>
-   <link rel="shortcut icon" href=ic_launcher_round.jpg"/>
-   <link rel="icon" href="ic_launcher_round.jpg"/>
-
+  <head>
     <title>YupFie</title>
- 
-  </head>
-  <body>
-<header>
-    
-    <div id="top-header">
-
-        <!-- Logo -->
-        <div id="logo">
-<center>
-        <p>YupFie</p>
-</center>
-        </div>      
-
-    </div>
-
-</header>
-  </body>
-<script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyAxwlIi4E0VUubHbsmnnPrN1SYTa-q8wwE",
-    authDomain: "yupfie-b0bc8.firebaseapp.com",
-    projectId: "yupfie-b0bc8",
-    storageBucket: "yupfie-b0bc8.appspot.com",
-    messagingSenderId: "990011045616",
-    appId: "1:990011045616:web:ab7ba84c8e2a052f283435",
-    measurementId: "G-CWVQE34MXW"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-  </html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="logo">
+        <button id="bars">
+        <i class="fa fa-bars"></i>
+        </button>
+        <text><a href="">YupFie</a></text>
+        <i class="fa fa-search"></i>
+        </header>
+        <div class="text"><p><b>Write Your Review or Queries about our App.....</b></p></div>
+        <input type="text" id="ComBox" placeholder="Write Feedback About Our App....."/>
+        <button type="submit" id="send">
+    <i class="fa fa-send-o"></i>
+        </button>
+        <div></div>
+    </body>
+</html>
